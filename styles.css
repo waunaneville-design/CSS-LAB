@@ -1,0 +1,62 @@
+/* Container styling */
+.cat-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2em;
+    background-color: #f9f9f9; /* soft background for contrast */
+}
+
+/* Individual cat breed card */
+.cat-breed {
+    flex: 1 1 300px;
+    margin: 1em;
+    padding: 1em;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    background-color: #fff; /* clean card background */
+}
+
+/* Hover effect */
+.cat-breed:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+    border-color: #66b2ff; /* accent border on hover */
+}
+
+/* Image styling */
+.cat-breed img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Heading styling */
+.cat-breed h3 {
+    margin: 0.5em 0;
+    color: #333;
+}
+
+/* Paragraph styling */
+.cat-breed p {
+    margin: 0.5em 0 1em;
+    color: #555;
+}
+
+/* Link styling */
+.cat-breed a {
+    display: inline-block;
+    padding: 0.5em 1em;
+    background-color: #66b2ff; /* accent color */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.cat-breed a:hover {
+    background-color: #3385ff; /* darker shade on hover */
+}
