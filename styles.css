@@ -9,7 +9,7 @@
 
 /* Individual cat breed card */
 .cat-breed {
-    flex: 1 1 300px;
+    flex: 1 1 100px;
     margin: 1em;
     padding: 1em;
     border: 1px solid #ddd;
@@ -18,6 +18,10 @@
     text-align: center;
     transition: transform 1.05s, box-shadow 0.3s;
     background-color: #fff; /* clean card background */
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+
 }
 
 /* Hover effect */
